@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nuestro colegio Eureka en Pizarra</title>
+
+    <!-- FONTS -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,400;1,600&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet"> -->
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body> 
+    <header class="header header-colegio">
+        <!-- NAVBAR -->
+        <nav class="navbar nav navbar-expand-lg bg-light fixed-top">
+            <div class="container">
+                <!-- LOGO -->
+              <a class="navbar-brand" href="index.html">
+                  <img src="img/Logo-full.png" alt="el logo del colegio pizareño Eureka. El colegio privado en Pizarra" class="nav__logo">
+                </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="el-colegio.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      El colegio
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="el-colegio.html">Pilares educativos</a></li>
+                      <li><a class="dropdown-item" href="el-colegio.html">Nuestro equipo pedogógico</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="el-colegio.html">Politica de calidad</a></li>
+                    </ul>
+                  </li>
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="school-life.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      School life
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="school-life.html">Actividades extracurriculares</a></li>
+                      <li><a class="dropdown-item" href="school-life.html">Galería</a></li>
+                      <li><a class="dropdown-item" href="school-life.html">Horario escolar</a></li>
+                      <li><a class="dropdown-item" href="school-life.html">Calendario escolar</a></li>
+                    </ul>
+                  </li>
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="admision.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Admisión
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="admision.html">Proceso de admisión</a></li>
+                      <li><a class="dropdown-item" href="admision.html">Ofertas educativas</a></li>
+                      <li><a class="dropdown-item" href="admision.html">Tarrifas</a></li>
+                    </ul>
+                  </li>
+    
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="info-academica.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Información académica
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="info-academica.html">Proyecto educativo</a></li>
+                      <li><a class="dropdown-item" href="info-academica.html">Etapas educativas</a></li>
+                  </li>
+                 
+                 
+                 
+                </ul>
+                
+              </div>
+            </div>
+        </nav>
+
+         <!-- header content -->
+         <div class="container">
+            <div class="hero__circles">
+              <div class="colegio-hero__circle--1 hero__circle--1"></div>
+              <div class="colegio-hero__circle--2 hero__circle--2">
+                <div class="hero__content">
+                  <h2 class="hero__brand-heading"> Eureka </h2>
+                  <h1 class="hero__subheading"> Colegio Privado Bilingüe inglés Infantil y Primaria en Pizarra </h1>
+                  <p class="hero__descr">Eureka es un colegio privado bilingüe inglés que cuenta con Escuela Infantil (de 0 a 3 años) adherida al programa de ayudas de la Junta de Andalucía. Nuestro colegio cubre las etapas de Infantil y Primaria, incluyendo un programa internacional de continuación académica en Eureka Genio International para Secundaria y Bachillerato.</p>
+                  <a href="#contact-form" class="button--contact">Contactanos</a>
+                </div>
+              </div>
+            </div>
+            <div class="hero__content--mob ">
+              <h2 class="hero__brand-heading hero__brand-heading--mob my-5"> Eureka </h2>
+              <h1 class="hero__subheading--mob my-5 "> Colegio Privado Bilingüe inglés Infantil y Primaria en Pizarra </h1>
+              <p class="hero__descr--mob my-5">Eureka es un colegio privado bilingüe inglés que cuenta con Escuela Infantil (de 0 a 3 años) adherida al programa de ayudas de la Junta de Andalucía. Nuestro colegio cubre las etapas de Infantil y Primaria, incluyendo un programa internacional de continuación académica en Eureka Genio International para Secundaria y Bachillerato.</p>
+              <a href="#contact-form" class="button--contact my-5">Contactanos</a>
+            </div>
+        </div>
+
+    </header>  
+
+    <main class="main">
+        <!-- PILARES  -->
+        <section class="pilares-educativos mt100px">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 col-lg-9 text-center text-lg-start">
+                        <h2 class="section-heading mb-5">Pilares educativos </h2>
+                        <h3 class="pilares-subheading sub-heading mt-5">El modelo de enseñanza de Eureka basado en la EXCELENCIA EDUCATIVA y la INNOVACIÓN, se desarrolla bajo cuatro pilares fundamentales</h3>
+                    </div>
+                </div>
+
+                <div class="row gy-5 mt-5 d-flex justify-content-center justify-content-lg-between">
+                    <!-- PILAR 1 -->
+                    <div class="pilares-educativos__card card-info col-12 col-lg-6 col-xl-3 mt-5 me-5 shadow">
+                        <h4 class="card__title">Bilingüismo</h4>
+                        <p class="card__descr">
+                            Eureka tiene como objetivo conseguir que sus alumnos sean bilingües en español-inglés.Desde las edades más tempranas se logra que el alumno asimile de forma natural los idiomas, consiguiendo niños que entienden e interiorizan el inglés sin dificultad.Además, a partir de los 11 años, se introduce el alemán/francés como tercer idioma.
+                        </p>
+                    </div>
+                
+                    <!-- PILAR 2 -->
+                    <div class="pilares-educativos__card card-info col-12 col-lg-6 col-xl-3 mt-5 me-5 shadow">
+                        <h4 class="card__title">Tecnología</h4>
+                        <p class="card__descr">
+                            El colegio Eureka está equipada con las últimas novedades informáticas y tecnológicas instaladas en las aulas para un uso directo del alumnado y profesorado. De esta forma, no sólo se pone la tecnología al servicio de la educación, sino que se mejoran y enriquecen los métodos de enseñanza siendo una verdadera Escuela TIC 2.0.
+                        </p>
+                    </div>
+
+                    <!-- PILAR 3 -->
+                    <div class="pilares-educativos__card card-info col-12 col-lg-6 col-xl-3 mt-5 me-5 shadow">
+                        <h4 class="card__title">Arte</h4>
+                        <p class="card__descr">
+                            El colegio Eureka dedica una especial atención al desarrollo humanístico y artístico del alumnado. Todas las artes están integradas en el aprendizaje social-educativo del alumnado desde la edad más temprana, formando personas creativas, cultas, críticas, sensibles, tolerantes y respetuosas.
+                        </p>
+                    </div>
+                    
+                    <!-- PILAR 4 -->
+                    <div class="pilares-educativos__card card-info col-12 col-lg-6 col-xl-3 mt-5 me-5 shadow">
+                        <h4 class="card__title">Deporte</h4>
+                        <p class="card__descr">
+                            Para el colegio Eureka la actividad física y la psicomotricidad son elementos fundamentales en la formación y educación de los alumnos desde la etapa de Infantil hasta Bachillerato. Junto a las beneficiosas repercusiones sobre la salud física y mental, el deporte representa valores como el compañerismo, la superación, la entrega, etc acompañado de hábitos sanos de alimentación, higiene y diversión.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+        <section>
+
+            <!-- EQUIPO -->
+        <section class="equipo pt-5 mt100px">
+            <div class="container">
+                <h2 class="section-heading pt-5 text-center text-lg-start"> Nuestro equipo pedogógico </h2>
+                <div class="row mt-5">
+                    <div class="col-12 col-lg-6">
+                        <p class="equipo-descr description-txt"> Nuestro colegio cuenta con un equipo humano de
+                            profesionales altamente cualificado y motivado en el desempeño de su profesión, no sólo como
+                            docentes sino como personas. El valor humano en nuestro colegio es prioridad y el trabajo en
+                            equipo el día a día. </p>
+                        <p class="equipo-descr description-txt">El equipo junto con el alumnado hace posible que
+                            este proyecto crezca cada día, gracias a su entrega, vocación y dedicación.</p>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <p class="equipo-descr description-txt"> Para Eureka es primordial la continua formación de
+                            su profesorado a todos los niveles, académicos, pedagógicos, tecnológicos y especialmente,
+                            en la gestión de personas y sus emociones.</p>
+                        <p class="equipo-descr description-txt"> Además, es primordial la actualización diaria en
+                            materia de herramientas educativas y nuevas tecnologías, así como el uso de las mismas a
+                            través de nuestra plataforma educativa myAgora+, de uso exclusivo en nuestros colegios.</p>
+                    </div>
+                </div>
+                <!-- CARDS -->
+
+                <div class="row  d-flex justify-content-center justify-content-lg-evenly  g-5 mt100px">
+
+                    <!-- EQUIPO CARD 1 -->
+                    <div class=" equipo-card card-info col-12 col-lg-6 col-lg-4 mb-5 me-5 shadow">
+
+                        <div class="equipo-card__col--1">
+                            <div class="equipo-card__img equipo-card__img--1"> </div>
+                            <h4 class="card__title">María Jesús De Los Campos Diaz</h4>
+                            <h5 class="card__subtitle">CEO Ereka, Directora Educativa</h5>
+                        </div>
+                        <div class="equipo-card__col--2">
+                            <p class="card__descr">En nuestro colegio Eureka hacemos todo lo posible para que
+                                nuestros/as alumnos/as se sientan como en casa, sin olvidar en ningún momento la misión
+                                que el profesorado tenemos de potenciar sus habilidades y formación currícular. Para que
+                                esto ocurra, ofrecemos un entorno de desarrollo personal ideal donde pontenciamos al
+                                máximo las capacidades intelectuales, además de las habilidades extra e intrapersonales
+                                de todo el alumnado”.</p>
+                        </div>
+
+                    </div>
+                    <!-- EQUIPO CARD 2 -->
+                    <div class=" equipo-card card-info col-12 col-lg-6  col-lg-4 mb-5 me-5 shadow">
+
+                        <div class="equipo-card__col--1">
+                            <div class="equipo-card__img equipo-card__img--2"> </div>
+                            <h4 class="card__title">Jesús Antonio García Santo<h4>
+                                    <h5 class="card__subtitle">Jefa de Estudios, subdirector</h5>
+                        </div>
+                        <div class="equipo-card__col--2">
+                            <p class="card__descr"> Diplomado en Educación Infantil y Primaria, Licenciada en
+                                Psicopedagogía, especializado en la enseñanza de las matemáticas en primaria. Formo
+                                parte del equipo directivo de Eureka, coordinando y supervisando aspectos tanto
+                                educativos como referentes a la organización del centro. Mi máxima, colaborar en la
+                                formación y educación de un alumnado que sienta amor por el aprendizaje.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- EQUIPO CARD 3 -->
+                    <div class=" equipo-card card-info col-12 col-lg-6 col-lg-4 mb-5 me-5 shadow">
+
+                        <div class="equipo-card__col--1">
+                            <div class="equipo-card__img equipo-card__img--3"> </div>
+                            <h4 class="card__title">David Varela Bellavista</h4>
+                            <h5 class="card__subtitle">Dirección de Deportes</h5>
+                        </div>
+                        <div class="equipo-card__col--2">
+                            <p class="card__descr"> Estoy actualmente cursando el último curso del Grado de
+                                Matemáticas y el deporte siempre ha sido mi pasión. Ser Director de Deportes en
+                                Novaschool supone una motivación constante en equipo, compartiendo éxitos y fracasos
+                                deportivos que nos hacen crecer cada día. Los valores del deporte enriquecen el
+                                crecimiento personal y academíco de nuestros alumnos.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- EQUIPO CARD 4 -->
+                    <div class=" equipo-card card-info col-12 col-lg-6 col-lg-4 mb-5 me-5 shadow">
+
+                        <div class="equipo-card__col--1">
+                            <div class="equipo-card__img equipo-card__img--4"> </div>
+                            <h4 class="card__title">María Carmen Borrego Molina</h4>
+                            <h5 class="card__subtitle">Licenciada en Pedagogía Especializada en Dirección de
+                                Proyectos (EMBA)</h5>
+                        </div>
+                        <div class="equipo-card__col--2">
+                            <p class="card__descr">Licenciada en Pedagogía y graduada en Educación Primaria. Como
+                                directora del dpto. de Orientación estoy en contacto diario con todos los centros,
+                                de una forma muy humana y cercana, lo que me hace disfrutar al máximo de mi trabajo,
+                                un trabajo en el que crecer profesional y personalmente se convierte en el día a
+                                día.</p>
+                        </div>
+
+                    </div>
+
+                    <!-- EQUIPO CARD 5 -->
+                    <div class=" equipo-card card-info col-12 col-lg-6 col-lg-4 mb-5 me-5 shadow">
+
+                        <div class="equipo-card__col--1">
+                            <div class="equipo-card__img equipo-card__img--5"> </div>
+                            <h4 class="card__title">Carolina Castro Blanco</h4>
+                            <h5 class="card__subtitle">Diplomada en Educación Infantil Licenciada en Psicopedagogía
+                            </h5>
+                        </div>
+                        <div class="equipo-card__col--2">
+                            <p class="card__descr">Graduada en Educación Social por la Universidad de Alcalá de
+                                Henares. Madrid, he cursado Máster del Profesorado de Educación Secundaria
+                                Especialidad en Orientación Educativa en la Universidad Internacional de Valencia,
+                                MBA en ESIC Busines&Marketing School y Máster en Dirección y Gestión de RRHH en la
+                                escuela IMF. Madrid.</p>
+                        </div>
+
+                    </div>
+                    <!-- EQUIPO CARD 6 -->
+                    <div class=" equipo-card card-info col-12 col-lg-6 col-lg-4 mb-5 me-5 shadow">
+
+                        <div class="equipo-card__col--1">
+                            <div class="equipo-card__img equipo-card__img--6"> </div>
+                            <h4 class="card__title">Fatima Abdul Ah Mani</h4>
+                            <h5 class="card__subtitle">Professora de Ingles, Frances</h5>
+                        </div>
+                        <div class="equipo-card__col--2">
+                            <p class="card__descr">Graduada por Universidad de Cardiff (Gales, Reino Unido), con
+                                honores en la especialidad de enseñanza del Inglés como primer idioma, Literatura y
+                                Drama. Idioma nativa es francés.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- POLITICA DE CALIDAD -->
+
+        <section class="politica mt100px">
+            <div class="container">
+                <h2 class="section-heading pt-5 text-center text-lg-start"> Politica de calidad </h2>
+                <h3 class="politica__subheading sub-heading mt-5">En nuestra labor por una educación de excelencia, en el colegio Eureka tenemos un compromiso firme en proporcionar a nuestros alumnos una educación de alta calidad a través de unas Política de Calidad efectiva.</h3>
+                <div class="row mt-5">
+                    <div class="col-12 col-lg-6">
+                        <p class="main-text"><strong>El colegio Eureka es una institución de enseñanza privada nacida en 1999</strong> que basa su modelo educativo en la excelencia académica y en la innovación. Desde sus inicios, todos sus centros se proponen responder al más alto nivel de las necesidades que la sociedad actual demanda a los profesionales del futuro y para ello proporciona un entorno educativo excepcional que lo diferencia de otras alternativas educativas. </p>
+                        
+                        <p class="main-text">Esto exige una orientación clara de la organización hacia cuatro factores claves:</p>
+                        
+                        <p class="main-text"><strong>Orientación</strong> hacia las <strong>el colegios de interés</strong>( alumno/as, familias y personal docente y no docente): consiguiendo la máxima satisfacción y fidelización de dichos el colegios de interés. <br>
+                            Orientación hacia <strong>los procesos</strong>: a través de una gestión sistemática de nuestros procesos. <br>
+                            Orientación hacia <strong>los resultados</strong>: buscando el equilibrio de todas las partes interesadas. <br>
+                            Orientación hacia <strong>un desarrollo sostenible y respetuoso con el entorno</strong>: integrando las acciones necesarias dentro de nuestra sistemática de gestión.</p>
+                        
+                        <p class="main-text">Con base a lo anterior, y como garantía de la consecución de las orientaciones, en Eureka establecemos los siguientes principios y valores estratégicos: </p>
+                        
+                        <p class="main-text"> <strong>Liderazgo:</strong> los directivos, educadores y personal de apoyo desarrollan, promueven y motivan con su comportamiento el alcanzar la excelencia y cumplir con todos los requisitos legales. </p>
+                        
+                        <p class="main-text"><strong>Personas:</strong> el desarrollo e implicación de las personas son factores esenciales para la consecución de los objetivos.</p>
+                        
+                        <p class="main-text"><strong>Alianzas:</strong> la colaboración con nuestros principales suministradores y las partes interesadas mediante el establecimiento de alianzas que generen valor. </p>
+                        
+                        <p class="main-text"><strong>Mejora Continua:</strong> a través de la implantación de Sistemas de Gestión Integrados, y mediante la aplicación del Modelo EFQM de Excelencia.</p> 
+                        
+                        <p class="main-text"> <strong>Seguridad de la Información:</strong> protegiendo los recursos de información frente a amenazas, internas o externas, deliberadas o accidentales, con el fin de asegurar el cumplimiento de la confidencialidad, integridad y disponibilidad de la información.</p> 
+
+
+                        <p class="main-text">
+                 
+                            Para ello centramos nuestros esfuerzos en:  
+
+                        </p>
+                            <p class="main-text"><strong>Impulsar una enseñanza donde los contenidos fomenten el deseo de aprender, el ansia y la alegría de conocer y el esfuerzo y el trabajo del buen hacer en el centro educativo.</strong></p>
+                        
+                    </div>   
+                    <div class="col-12 col-lg-6">
+                        <p class="main-text"><strong>Acompañar al alumno en su desarrollo físico</strong>, en su maduración afectiva y en su integración social, al mismo tiempo que se le ayuda a su cultivo intelectual para proseguir sus estudios superiores con garantías de éxito.</p>
+                        
+                        <p class="main-text"><strong>Educar en valores humanos</strong>, de modo que los alumnos sean ciudadanos responsables y solidarios integrados en una sociedad democrática, plural y con valores en igualdad de género.</p> 
+                        
+                        <p class="main-text">En Eureka somos conscientes de que la Organización forma parte de una Comunidad, lo que implica un impacto de sus actividades y, por tanto, una responsabilidad social, que asumimos mediante:</p> 
+                        
+                        <p class="main-text"><strong>Una adecuada Gestión Ambiental</strong>, unida al compromiso de prevención de la contaminación e implantando sistemas ecológicos y de energía renovable en el colegio. </p>
+                        
+                        <p class="main-text"><strong>Participación e integración:</strong> participando en actividades sociales para la comunidad y colaborando con las administraciones y organismos interesados. La disposición de las actividades de investigación, desarrollo e innovación al servicio de la ciudadanía, del bienestar social, de un desarrollo sostenible y protección del medioambiente. </p>
+                        
+                        <p class="main-text">Promoción e integración en la igualdad de género en todos los aspectos tanto laborales como educativos. Así como en la conciliación familiar y laboral.</p>
+                        
+                        <p class="main-text">Para ello en Eureka nos comprometemos a: </p>
+                        
+                        <p class="main-text">
+                            <strong>Incrementar y consolidar la innovación</strong> en un entorno de Mejora Continua. <br>
+                            Evaluar y conocer todos los impactos ambientales derivados de nuestras actividades y actuar sobre ellos de manera eficiente. <br>
+                            <strong>Cumplir con la legislación</strong> que nos aplica y otros requisitos legales que podamos suscribirnos, y en la medida de lo posible superar los requisitos en ella establecidos.
+                        </p>
+                        
+                        <p class="main-text">Fomentar la minimización de consumos energéticos, agua y papel con el objeto de <strong>crecer de modo sostenible</strong>. </p>
+                        
+                        <p class="main-text"><strong>Garantizar la Seguridad de la Información</strong>, asegurando la confidencialidad, integridad, disponibilidad de la información y minimizar riesgos de daño. Revisar periódicamente el Sistema de Gestión Integral establecido.</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONTACT FORM  -->
+        <section class="contact" id="contact-form">
+            <div class="contact-grid__container">
+                <!-- CONTACT FORM -->
+    
+                <div class="contact-form">
+                  <h3 class="contact-form__title">Contactanos</h3>
+    
+                    <form class="contact-form__grid" action="">
+                      <!-- NOMBRE COMPLETO -->
+                      <div class="contact-form__input contact-form__input--1">
+                        <label for="nombreCompleto">Su nombre completo</label> <br>
+                        <input class="contact-form__input-textfield" type="text"  id="nombreCompleto" name="" value="" required>
+                      </div>
+    
+                      <!-- EMAIL -->
+                      <div class="contact-form__input contact-form__input--2">
+                        <label for="email">Su correo electrónico</label> <br>
+                        <input class="contact-form__input-textfield" id="email "type="text" name="" value="">
+                      </div>
+    
+                      <!-- TEL -->
+    
+                      <div class="contact-form__input contact-form__input--3">
+                        <label for="tel">Su numero de telefono</label> <br>
+                        <input class="contact-form__input-textfield" id="tel" type="text" name="" value="">
+                      </div>
+    
+                      <!-- ASUNTO -->
+    
+                      <div class="contact-form__input contact-form__input--4">
+                        <label for="asunto">El asunto</label> <br>
+                        <input class="contact-form__input__textfield" id="asunto" type="text" name="" value="">
+                      </div>
+    
+                      <!-- MENSAJE -->
+    
+                      <div class="contact-form__input contact-form__input--5">
+                        <label for="mensaje">El mensaje</label> <br>
+                        <textarea class="contact-form__input__textfield" id="mensaje" name="name" rows="8"></textarea>
+                      </div>
+    
+                      <!-- ENVIAR -->
+    
+                      <div class="contact-form__btn">
+                        <button type="submit" name="button">Enviar</button>
+                      </div>
+                    </form>
+                </div>
+        
+    
+                <!-- BUSINESS CARD -->
+                <div class="business-card">
+                  <img src="img/Logo-solo.png" alt="Logo Eureka el colegio privado en Pizarra">
+                  <h3 class="business-card__brand-heading">Eureka</h3>
+                  <h4 class="business-card__brand-subheading">El colegio privado en Pizarrs</h4>
+    
+                  <div class="business-contacts">
+                    <a href="https://goo.gl/maps/TNXyXGWnLZutvSJK8">Calle Felicidad 13, 29560, Pizarra, Málaga</a>
+                    <a href="tel:+34907770954"> 907 770 954</a>
+    
+                    <a href="mailto:secretaria@eureka.es">secretaria@eureka.es</a>
+                  </div>
+    
+                </div>
+            </div>
+    
+        </section>
+         
+    </main>
+
+      <!-- FOOTER -->
+      <footer class="footer">
+        <div class="container">
+          <div class="row ">
+  
+            <div class="footer__logo col-12 col-sm-6 col-lg-3">
+              <a class="footer__logo--link" href="index.html">
+        
+              <div class="footer__logo">
+                <img src="img/Logo-solo.png" alt="Logo Eureka el colegio privado en Pizarra" class="footer__logo--img">
+                <h5 class="footer__brand-heading">Eureka</h5>
+                <h4 class="footer__brand-subheading">El colegio privado en Pizarra</h4>
+  
+              </a>
+              </div>
+            </div>
+  
+  
+            <div class="footer__nav footer__nav--c2 col-12 col-sm-6 col-lg-3">
+              <a href="el-colegio.html"class="footer__nav-link"> El colegio </a>
+              <a class="footer__nav-link" href="el-colegio.html">Pilares educativos</a>
+              <a class="footer__nav-link" href="el-colegio.html">Nuestro equipo pedogógico</a>
+              <a class="footer__nav-link" href="el-colegio.html">Politica de calidad</a>
+              <a class="footer__nav-link" href="school-life.html">School life </a>
+  
+              <a class="footer__nav-link" href="school-life.html">Actividades extracurriculares</a>
+              <a class="footer__nav-link" href="school-life.html">Galería</a>
+              <a class="footer__nav-link" href="school-life.html">Horario escolar</a>
+              <a class="footer__nav-link" href="school-life.html">Calendario escolar</a>
+              <a class="footer__nav-link" href="admision.html">Admisión</a>
+            </div>
+  
+  
+            <div class="footer__nav footer__nav--c3 col-12 col-sm-6 col-lg-3">
+              <a class="footer__nav-link" href="admision.html">Proceso de admisión</a>
+              <a class="footer__nav-link" href="admision.html">Ofertas educativas</a>
+              <a class="footer__nav-link" href="admision.html">Tarrifas</a>
+              <a class="footer__nav-link" href="info-academica.html"> Información académica </a>
+              <a class="footer__nav-link" href="info-academica.html">Proyecto educativo</a>
+              <a class="footer__nav-link" href="info-academica.html">Etapas educativas</a>
+            </div>
+            <div class="footer__contacts col-12 col-sm-6 col-lg-3">
+              <div class="footer__business-contacts business-contacts">
+                <a href="https://goo.gl/maps/TNXyXGWnLZutvSJK8">Calle Felicidad 13, 29560, Pizarra, Málaga</a>
+                <a href="tel:+34907770954"> 907 770 954</a>
+  
+                <a href="mailto:secretaria@eureka.es">secretaria@eureka.es</a>
+              </div>
+            </div>
+            <div class="footer__copyrights col-12">
+                © Copyright 2022 Eureka | Aviso legal | Cookies | Política de privacidad
+            </div>
+  
+          </div>
+        </div>
+  
+    </footer>
+
+
+    <!-- BOOTSTRAP -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
