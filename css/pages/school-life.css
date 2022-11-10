@@ -1,0 +1,184 @@
+.header-school-life .section-heading{
+    padding-top: 100px;
+}
+
+.acti-extra h2 {
+    margin-top: 20rem;
+    
+}
+
+.calendario__container {
+    display: flex;
+    align-content: space-around;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 10rem auto 5rem;
+}
+
+.calendario__item {
+    padding: 3rem;
+}
+
+.calendario__container--expl {
+    width: 90%;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.grid-item {
+    padding: 2rem;
+    align-self: center;
+    justify-items: center;
+}
+
+.infantil-grid {
+    display: grid;
+    grid-template-areas: 
+    "head head head head"
+    "entrada entrada salida salida"
+    "manana manana manana manana"
+    "data1 data1 data5 data6"
+    "data2 data2 data5 data6"
+    "data3 data3 data7 data8"
+    "tarde tarde tarde tarde"
+    "data4 data4 data9 data9";
+}
+
+.infantil-grid__heading {
+    grid-area: head;
+    background-color: var(--accent-secondary);
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 2.5rem;
+}
+
+.infantil-grid__head--1 {
+    grid-area: entrada;
+}
+.infantil-grid__head--2 {
+    grid-area: salida;
+}
+
+.infantil-grid__col-span--manana {
+    grid-area: manana;
+}
+
+.infantil-grid__data--1{
+    grid-area: data1;
+}
+.infantil-grid__data--2{
+    grid-area: data2;
+}
+.infantil-grid__data--3{
+    grid-area: data3;
+}
+.infantil-grid__data--4{
+    grid-area: data4;
+}
+.infantil-grid__data--5{
+    grid-area: data5;
+}
+.infantil-grid__data--6{
+    grid-area: data6;
+}
+.infantil-grid__data--7{
+    grid-area: data7;
+}
+.infantil-grid__data--8{
+    grid-area: data8;
+}
+.infantil-grid__data--9{
+    grid-area: data9;
+}
+.infantil-grid__col-span--tarde {
+    grid-area: tarde;
+}
+/* HORARIO PRIMARIA */
+.primaria-grid {
+    display: grid;
+    grid-template-areas: 
+    "head head head head"
+    "entrada entrada salida salida"
+    "manana manana manana manana"
+    "data1 data1 data4 data5"
+    "data2 data2 data6 data6"
+    "tarde tarde tarde tarde"
+    "data3 data3 data3 data3";
+
+}
+.primaria-grid__heading {
+    grid-area: head;
+    background-color: var(--primary);
+    border-radius: 10px 10px 0px 0px;
+    padding-top: 2.5rem;
+}
+
+.primaria-grid__head--1 {
+    grid-area: entrada;
+}
+.primaria-grid__head--2 {
+    grid-area: salida;
+}
+
+.primaria-grid__col-span--manana {
+    grid-area: manana;
+}
+
+.primaria-grid__data--1{
+    grid-area: data1;
+}
+.primaria-grid__data--2{
+    grid-area: data2;
+}
+.primaria-grid__data--3{
+    grid-area: data3;
+}
+.primaria-grid__data--4{
+    grid-area: data4;
+}
+.primaria-grid__data--5{
+    grid-area: data5;
+}
+.primaria-grid__data--6{
+    grid-area: data6;
+}
+.primaria-grid__col-span--tarde {
+    grid-area: tarde;
+}
+
+
+@media only screen and (max-width: 690px){
+    .calendario__container {
+        justify-content: center;
+    }
+    .calendario__item {
+        margin-top: 2rem;
+    }
+
+    .calendario__container--expl {
+        margin-top: 5rem;
+        flex-direction: column;
+        width: 80%;
+        gap: 2rem;
+    }
+    .calendario__item--expl {
+        max-width: 80%;
+        margin-right: 2rem;
+    }
+    .calendario__item--expl svg {
+        max-width: 300px;
+    }
+
+
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .infantil-grid,
+    .primaria-grid {
+        margin-top: 5rem;
+    }
+}

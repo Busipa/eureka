@@ -1,0 +1,30 @@
+
+.news-card__img--1 {
+    background-image:
+        url(../../img/noticias-1.jpeg);
+}
+.news-card__img--2 {
+    background-image: 
+        url(../../img/noticias-2.jpeg);
+}
+.news-card__img--3 {
+    background-image: 
+        url(../../img/noticias-3.jpeg);
+}
+.news-card__img--4 {
+    background-image: 
+        url(../../img/noticias-4.jpeg);
+}
+
+.news-card {
+    margin-bottom: 2rem;
+}
+.news-card:not(:last-child) {
+    margin-right: 2rem;
+}
+
+@media only screen and (max-width: 1400px) {
+    .news-card {
+    margin-right: 1rem;
+    }
+}

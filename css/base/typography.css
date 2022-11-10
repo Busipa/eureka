@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,400;1,600&family=Roboto:wght@100;400;700&display=swap');
+
+
+
+.hero__brand-heading {
+    font: normal normal normal 7rem/10.2rem 'Black Han Sans', sans-serif; 
+}   
+
+.hero__subheading {
+    font: normal normal normal 3.5rem/4.3rem 'Montserrat', sans-serif; 
+}
+
+.hero__descr {
+    font: normal normal normal 2rem/2.4rem 'Montserrat', sans-serif;
+    padding: 2.2rem 2rem;
+}
+/* SECTION HEADING  */
+
+.section-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7rem;
+    line-height: 1;
+    font-weight: 900;
+    font-style: normal;
+    color: var(--primary);
+    padding: 0 5rem;
+    text-shadow: 0px 3px 6px var(--white);
+}
+
+.section-subheading--italic {
+    font: italic normal 200 3rem/3rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+    text-align: center;
+    padding-top: 4rem 2rem;
+
+}
+
+.quoter {
+    font: italic normal normal 2rem/2.4rem'Montserrat', sans-serif;
+    color: var(--main-dark);
+}
+
+ /* SECTION SUBHEADING  */
+    .sub-heading {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2.5rem;
+        font-weight: normal;
+        font-style: normal;
+        color: var(--main-dark);
+    }
+
+    /* DESCRIPTION */
+
+    .description-txt {
+        font: normal normal normal 2rem/2.4rem 'Montserrat', sans-serif;
+        text-align: justify;
+        margin: 2rem auto;
+
+    }
+
+/*  MAIN TEXT */
+
+.main-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    letter-spacing: 2.4rem;
+    letter-spacing: 0;
+    color: var(--main-dark);
+}
+/* СARDS */
+
+.card__title {
+    font: normal normal 600 2rem/2.4rem 'Montserrat', sans-serif;
+    color: var(--primary);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.card__subtitle {
+    font: italic normal normal 1.4rem/1.8rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+    text-align: center;
+}
+
+.card__body {
+    font: normal normal normal 1.8rem/2.2rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+}
+
+.card__descr {
+    font: normal normal 100 1.8rem/2.4rem 'Roboto', sans-serif;
+    color: var(--main-dark);
+    padding: 2rem;
+    text-align: justify;
+    margin: 0;
+}
+
+/* ACTIVIDADES EXTRA CARDS */
+.acti-extra__card--title {
+    font: normal normal normal 3.5rem/5rem 'Black Han Sans', sans-serif;
+}
+.acti-extra__card--body {
+    font: normal normal 100 1.8rem/2.2rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+}
+.acti-extra__card--price {
+    font: normal normal 600 3rem/3.7rem 'Montserrat', sans-serif;
+    color: var(--primary);
+}
+
+.acti-extra__card--price-details {
+    font: normal normal normal 1.6rem/1.9rem 'Montserrat', sans-serif; 
+    color: var(--primary);
+}
+
+
+/* JUNTA */
+.junta__title {
+    font: normal normal 600 2rem/3rem 'Montserrat', sans-serif;
+    padding: 2rem 5rem;
+}
+
+/* ACCORDION */
+.accordion-button {
+    font: normal normal 600 2rem/3rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+
+}
+/* BTN */
+
+.btn--nav-link{
+    font: normal normal 600 2rem/3rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+    text-decoration: none;
+}
+
+.btn--gallery {
+    color: var(--white);
+    font: normal normal 600 2rem/3rem 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+/* CONTACT FORM */
+
+.contact-form__title {
+    font: normal normal normal 5rem/7.3rem 'Black Han Sans', sans-serif;
+    text-align: center;
+    color: var(--white);
+    margin-top: 8rem;
+}
+.contact-form__input label{
+    font: normal normal normal 1.8rem/2rem 'Montserrat', sans-serif;
+    text-align: left;
+    color: var(--white);
+}
+
+/* CONTACTS */
+
+.business-card__brand-heading {
+    font: normal normal normal 4.3rem/6.3rem 'Black Han Sans', sans-serif;
+    color: var(--white);
+}
+
+.business-card__brand-subheading {
+    font: normal normal 300 2.7rem/3.3rem 'Montserrat', sans-serif;
+    color: var(--white);
+    max-width: 25rem;
+    text-align: center;
+    margin: 0 auto 6rem;
+}
+
+.business-contacts a {
+    font: normal normal normal 1.8rem/2.2rem 'Montserrat', sans-serif;
+    color: var(--white);
+    text-decoration: none;
+}
+
+input[type=text] {
+    font: normal normal normal 1.8rem/2.2rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+    padding: 1rem;
+}
+
+/* FOOTER  */
+
+.footer__brand-heading {
+    font: normal normal normal 3rem/4rem 'Black Han Sans', sans-serif;
+    color: var(--white);
+}
+
+.footer__brand-subheading {
+    font: normal normal 300 1.9rem/2.3rem 'Montserrat', sans-serif;
+    color: var(--white);
+    max-width: 20rem;
+    text-align: center;
+    margin: 1.5rem auto 0;
+}
+
+.footer__nav a {
+    font: normal normal normal 1.6rem/2.2rem 'Montserrat', sans-serif;
+    color: var(--white);
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer__copyrights {
+    font: normal normal normal 1.2rem/1.6rem 'Roboto', sans-serif;
+    color: var(--white);
+    text-decoration: none;
+    text-align: left;
+    padding: 5rem;
+}
+
+/* HORARIO */
+.horario__title {
+    font: normal normal normal 4rem/5.8rem 'Black Han Sans', sans-serif;
+    text-align: center;
+    color: var(--white);
+}
+
+.horario__sub-title {
+    font: italic normal normal 2rem/2.4rem 'Montserrat', sans-serif;
+    text-align: center;
+    color: var(--white);
+}
+
+.horario__col-head {
+    font: normal normal 600 2.5rem/3rem 'Montserrat', sans-serif;
+    text-align: center;
+    color: var(--primary);
+}
+
+.horario__col-span {
+    font: italic normal 600 2.5rem/3rem 'Montserrat', sans-serif;
+    text-align: center;
+    color: var(--white);
+}
+
+.horario__data {
+    font: normal normal normal 1.6rem/1.9rem 'Montserrat', sans-serif;
+    text-align: center;
+    color: var(--main-dark);
+}
+/* ADMISION */
+
+.admision-heading {
+    font: normal normal 800 5rem/5rem 'Montserrat', sans-serif;
+    color: var(--primary);
+}
+
+.admision-descr {
+    font: normal normal normal 1.8rem/2.2rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+    text-align: justify;
+    margin-top: 3rem;
+    max-width: 90%;
+}
+
+.admision-subheading {
+    font: normal normal normal 2rem/2.4rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+    text-align: justify;
+    margin-top: 3rem;
+    max-width: 90%;
+}
+
+/* TARIFAS */ 
+    .tarrifas__heading {
+        font: normal normal 600 2.5rem/2.4rem 'Montserrat', sans-serif;
+        color: var(--white);
+    }
+
+    .tarrifas__sub-heading {
+        font: normal normal 600 2rem/2.4rem 'Montserrat', sans-serif;
+    }
+
+    .tarrifas__categoria {
+        font: normal normal 600 2rem 'Montserrat', sans-serif;
+        color: var(--primary);
+        text-align: center;
+    }
+
+    .tarrifas__body {
+        font: normal normal 600 2.3rem/2.8rem 'Montserrat', sans-serif;
+        color: var(--main-dark);
+    }
+    .tarrifas__body--sm {
+        font: normal normal 300 1.8rem/2.2rem 'Montserrat', sans-serif;
+        color: var(--main-dark);
+    }
+
+    .tarrifas__card-info {
+        font: normal normal normal 1.6rem/1.9rem 'Montserrat', sans-serif;
+        color: var(--main-dark);
+    }
+
+
+    .tarrifas__info {
+        font: normal normal normal 16px/21px 'Roboto', sans-serif;
+        color: var(--main-dark);
+        text-align: justify;
+        max-width: 90vw;
+    }
+
+    .etapa__title {
+        font: normal normal normal 4rem/5.8rem 'Black Han Sans', sans-serif;
+        text-align: center;
+        color: var(--white);
+    }
+
+    .etapa__subtitle {
+    font: italic normal normal 2rem/2.4rem 'Montserrat', sans-serif;
+    text-align: center;
+    color: var(--white);
+    }
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .section-heading {
+        font-size: 5rem;
+    }
+    .sub-heading {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .section-heading {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .section-heading {
+        font-size: 4.5rem;
+    }
+
+    .sub-heading,
+    .admision-subheading, 
+    .card__title {
+        font-size: 1.8rem;
+    }
+
+    .main-text, 
+    .card__desc,
+    .card__body {
+        font-size: 1.6rem;
+    }
+
+    .junta__title {
+        text-align: center;
+    }
+
+    .tarrifas__info {
+        font-size: 14px;
+        line-height: 1.2;
+    } 
+
+    .admision-heading {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .hero__brand-heading {
+        font-size: 40px;
+    }
+
+    .hero__subheading--mob {
+        font: normal normal normal 19px/23px 'Montserrat', sans-serif; 
+    }
+
+    .hero__descr--mob {
+        font: normal normal normal 15px/22px 'Montserrat', sans-serif;
+    }
+    
+    .footer__nav a {
+        text-align: center;
+    }
+
+    .section-subheading--italic {
+        max-width: 80%;
+    }
+
+    
+}
+
+@media only screen and (max-width: 400px) {
+    .section-heading {
+        font-size: 20px;
+    }
+
+    .sub-heading {
+        font-size: 18px;
+    }
+}

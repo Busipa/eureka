@@ -1,0 +1,125 @@
+.header {
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 110vh;
+    z-index: 1;
+    position: relative;
+}
+
+.hero__circles {
+    position: relative;
+    z-index: 0;
+}
+
+.hero__circle--1 {
+    position: absolute;
+    z-index: 50;
+    left: 25%;
+    top: 16rem;
+    border-radius: 100%;
+    width: 60rem;
+    height: 60rem;
+
+}
+
+.home-hero__circle--1 {
+    background-color: var(--secondary-transparent);
+}
+.colegio-hero__circle--1 {
+    background-color: var(--accent-primary-transparent);
+}
+.home-hero__circle--2 {
+    background-color: var(--primary);
+}
+.colegio-hero__circle--2 {
+    background-color: var(--main-dark);
+}
+.hero__circle--2 {
+    position: absolute;
+    top: 18.5rem;
+    left: 40%;
+    border-radius: 100%;
+    width: 80rem;
+    height: 75rem;
+    background-color: var(--primary);
+    z-index: 100;
+    text-align: center;
+    color: var(--white);
+}
+
+.hero__content {
+    margin: 13rem auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 60rem;
+    z-index: 200;
+}
+
+.hero__content--mob {
+    display: none;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .hero__circle--1 {
+        left: 10%;
+    }
+    .hero__circle--2 {
+        left: 20%;
+    }
+
+}
+@media only screen and (max-width: 900px) {
+    .hero__circle--1 {
+        left: 0;
+    }
+    .hero__circle--2 {
+        left: 10%;
+    }
+}
+
+
+@media only screen and (max-width: 760px) {
+    .hero__circle--1 {
+        left: -12%;
+    }
+    .hero__circle--2 {
+        left: -10%;
+    }
+}
+
+ @media only screen and (max-width: 660px) {
+     .hero__circle--1,
+     .hero__circle--2 {
+            display: none;
+     }
+    
+     .header {
+            background-image: none;
+            height: 90rem;
+     }
+
+     .header-home {
+         background-color: var(--primary);
+     }
+
+     .header-colegio {
+         background-color: var(--secondary);
+     }
+
+     .hero__content--mob {
+        display: block;
+        color: var(--white);
+        margin: 8rem auto 3rem;
+        max-width: 80%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+    }
+}

@@ -1,0 +1,185 @@
+
+
+
+.card-info {
+    border-radius: 10px;
+    max-width: 30rem;
+    padding: 0;
+    margin: 0;
+}
+
+.card__img {
+    max-width: 30rem;
+    height: 25rem;
+    border-radius: 10px 10px 0px 0px;
+    background-position: center;
+    background-size: cover;
+}
+
+.card__img--1 {
+    background-image: linear-gradient(
+        to right bottom,
+        var(--accent-secondary-transparent),
+        var(--accent-secondary-transparent)),
+        url(../../img/card-1.jpeg);
+}
+.card__img--2 {
+    background-image: linear-gradient(
+        to right bottom,
+        var(--accent-primary-transparent),
+        var(--accent-primary-transparent)),
+        url(../../img/card-2.jpeg);
+}
+.card__img--3 {
+    background-image: linear-gradient(
+        to right bottom,
+        var(--secondary-transparent),
+        var(--secondary-transparent)),
+        url(../../img/card-3.jpeg);
+}
+.card__img--4 {
+    background-image: linear-gradient(
+        to right bottom,
+        var(--primary-transparent),
+        var(--primary-transparent)),
+        url(../../img/card-4.jpeg);
+}
+
+.service__card {
+    margin-bottom: 2rem;
+}
+.service__card:not(:last-child) {
+    margin-right: 2rem;
+}
+
+/* EQUIPO PEDOGOGICO */
+
+.equipo-card {
+    background-color: var(--white);
+    /* min-width: 40vw; */
+    min-height: 30rem;
+    min-width: 30%;
+    padding: 4rem;
+}
+.equipo-card__img {
+    border: 2px solid var(--accent-secondary);
+    border-radius: 100%;
+    height: 18rem;
+    width: 19rem;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.equipo-card__img--1 {
+    background-image: url(../../img/teacher-1.jpeg);
+    background-position: center;
+}
+.equipo-card__img--2 {
+    background-image: url(../../img/teacher-2.jpeg);
+    background-position: top;
+}
+.equipo-card__img--3 {
+    background-image: url(../../img/teacher-3.jpeg);
+    background-position: top;
+}
+.equipo-card__img--4 {
+    background-image: url(../../img/teacher-4.jpeg);
+    background-position: center;
+}
+.equipo-card__img--5 {
+    background-image: url(../../img/teacher-5.jpeg);
+    background-position: center;
+}
+.equipo-card__img--6 {
+    background-image: url(../../img/teacher-6.jpeg);
+    background-position: center;
+}
+
+/* ACTIVIDADES EXTRA */
+.acti-extra__card {
+    max-width: 30rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+/* ADMISION INFO CARDS */
+.admision__card {
+    text-align: center;
+    padding: 2rem  5rem;
+    background-color: var(--neutral-warm);
+    min-width: 44rem;
+    height: 45rem;
+}
+
+.card-tarrifa {
+    padding: 2rem;
+    background-color: var(--neutral-warm);
+    border-radius: 10px;
+}
+
+.card-etapa {
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 13rem 3fr 10rem;
+    grid-template-areas: 
+    "head"
+    "body"
+    "cta";
+
+}
+.etapa__heading {
+    border-radius: 10px 10px 0 0;
+    padding: 2rem;
+    grid-area: head;
+
+}
+
+.etapa__descr {
+    padding: 2rem 5rem;
+    grid-area: body;
+    width: 100%;
+}
+.etapa__cta {
+    grid-area: cta;
+    justify-self: center;
+    align-self: start;
+}
+
+
+
+@media only screen and (max-width: 1400px) {
+    .service__card {
+    margin-right: 1rem;
+    }
+
+    .card-info, 
+    .card__img {
+        max-width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .card-info, 
+    .card__img {
+        max-width: 40rem;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .card-info, 
+    .card__img {
+        max-width: 40rem;
+        height: 20rem;
+    }
+   
+}
+
+@media only screen and (max-width: 992px) {
+    .admision__card {
+        height: auto;
+    }
+}
+
+
+

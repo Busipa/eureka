@@ -1,0 +1,26 @@
+.header-colegio {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(83, 44, 197, .7),
+        rgba(83, 44, 197, .7)),
+        url(../../img/hero-colegio.jpeg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 100vh;
+    z-index: 1;
+    position: relative;
+}
+
+.equipo {
+    background-color: var(--neutral-warm);
+}
+
+.pilares-subheading,
+.equipo-descr {
+    color: var(--main-dark);
+    margin-right: 5rem;
+}
+
+
+

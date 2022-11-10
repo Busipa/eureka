@@ -1,0 +1,57 @@
+/* HERO */
+
+.header-home {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(237, 166, 32, .7),
+        rgba(237, 166, 32, .7)),
+        url(../../img/hero.jpeg);
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+    height: 110vh;
+    z-index: 1;
+    position: relative;
+}
+
+
+/* SERVICE */
+.service__card {
+    margin-bottom: 2rem;
+}
+.service__card:not(:last-child) {
+    margin-right: 2rem;
+}
+
+
+/* JUNTA */
+
+.junta {
+    background-color: var(--accent-secondary-transparent);
+    color: var(--white);
+
+}
+
+.junta__logo {
+    max-height: 10rem;
+    height: auto;
+    max-width: 100%;
+}
+
+/* offer */
+
+.offer {
+    background-color: var(--neutral-warm);
+    padding-bottom: 10rem;
+}
+
+.info-navegation {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+
+
+    

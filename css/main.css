@@ -1,0 +1,22 @@
+
+@import "base/base.css";
+@import "base/colors.css";
+@import "base/typography.css";
+
+
+@import "components/navbar.css";
+@import "components/header.css";
+@import "components/footer.css";
+@import "components/contact-form.css";
+@import "components/btn.css";
+@import "components/card.css";
+@import "components/accordion.css";
+@import "components/ultimas-noticias.css";
+@import "components/gallery.css";
+
+
+@import "pages/admision.css";
+@import "pages/el-colegio.css";
+@import "pages/home.css";
+@import "pages/info-academica.css";
+@import "pages/school-life.css";

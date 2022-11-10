@@ -1,0 +1,41 @@
+ .navbar {
+    background-color: var(--neutral-warm) !important;
+}
+
+.nav__logo {
+    width: 30.3rem;
+    height: auto;
+    margin: 1rem;
+}
+
+.dropdown-menu {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+}
+
+.nav-item a {
+    font: normal normal normal 1.9rem/2.3rem 'Montserrat', sans-serif;
+    color: var(--main-dark);
+    margin-left: 5rem;
+}
+
+.dropdown-item:hover,
+.nav-link:hover {
+    background-color: transparent !important;
+    color: var(--secondary);
+}
+  
+@media only screen and (max-width: 1200px) {
+    .nav__logo {
+        width: 29.5rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .nav__logo {
+        width: 20rem;
+    }
+}

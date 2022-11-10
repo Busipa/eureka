@@ -1,0 +1,57 @@
+:root {
+
+    --primary: #3453AA;
+    --secondary: #532CC5B3;
+
+    
+    --white: #FFFFFF;
+    --main-dark: #314376;
+    --neutral-grey: #DFE2E6;
+    --neutral-warm: #F4F2E9;
+
+
+    --accent-primary: rgba(237, 166, 32, .7);
+    --accent-secondary: #83BA7A;
+
+    --primary-transparent: rgba(52,83,170, .7);
+    --secondary-transparent: rgba(83, 44, 197, .7);
+    --accent-secondary-transparent: rgba(133,204,121, .7);
+    --accent-primary-transparent: rgba(242, 186, 109, .7);
+
+}
+.color--white {
+    color: var(--white);
+}
+
+.color--secondary {
+   color: var(--secondary); 
+}
+
+.color--accent-primary {
+    color: var(--accent-primary);
+}
+
+.color--primary {
+    color: var(--primary);
+}
+
+.bg-color--primary {
+    background-color: var(--primary);
+}
+.color--accent-secondary {
+    color: var(--accent-secondary);
+}
+
+.bg-color--accent-primary {
+    background-color: var(--accent-primary);
+}
+.bg-color--accent-secondary {
+    background-color: var(--accent-secondary);
+}
+.bg-color--secondary {
+    background-color: var(--secondary);
+}
+
+.bg-color-primary-transparent {
+    background-color: var(--primary-transparent);
+}

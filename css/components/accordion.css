@@ -1,0 +1,25 @@
+/* .accordion-header {
+    background-color: var(--primary);
+} */
+
+.accordion {
+    border-radius: 10px !important;
+}
+
+.accordion-button {
+    font-size: 2.3rem;
+    padding: 2rem 5rem;
+}
+
+.accordion-button:not(.collapsed){
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%)
+}
+
+.accordion-body {
+    padding: 2rem 5rem;
+}

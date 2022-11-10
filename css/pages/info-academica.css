@@ -1,0 +1,16 @@
+.proyectos-educativos {
+    margin-top: 20rem;
+}
+
+.proyectos-educativos p {
+    text-align: justify;
+}
+
+.etapas-educativas img {
+    border-radius: 10px;
+}
+
+.etapas-educativas .row {
+    text-align: justify;
+}
+
